@@ -1,29 +1,89 @@
-# Create T3 App
+# UX Portfolio
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A modern UX portfolio website built with the [T3 Stack](https://create.t3.gg/) and bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
+## Getting Started
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+This project provides a solid foundation for building a professional UX portfolio. We've kept the setup simple so you can start with the basic scaffolding and add additional features as needed.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+### Prerequisites
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (version 18 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <your-repo-url>
+cd UX-Portfolio
+
+# Install dependencies
+npm install
+
+# Copy environment variables
+cp .env.example .env.local
+
+# Start the development server
+npm run dev
+```
+
+## Tech Stack
+
+This project is built with modern web technologies to ensure excellent performance and developer experience:
+
+- **[Next.js](https://nextjs.org)** - React framework with server-side rendering
+- **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
+- **[Tailwind CSS](https://tailwindcss.com)** - Utility-first CSS framework
+- **[tRPC](https://trpc.io)** - End-to-end typesafe APIs
+- **[React Query](https://tanstack.com/query)** - Data fetching and state management
+
+## Project Structure
+
+```
+src/
+├── app/              # Next.js app router pages and layouts
+├── components/       # Reusable React components
+├── server/          # Backend API and tRPC routers
+└── trpc/            # tRPC configuration
+```
+
+## Development
+
+### Available Scripts
+
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+npm run typecheck    # Run TypeScript type checking
+npm run format:write # Format code with Prettier
+```
+
+### Environment Variables
+
+Copy `.env.example` to `.env.local` and configure your environment variables. This file should not be committed to version control.
 
 ## Learn More
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+To learn more about the [T3 Stack](https://create.t3.gg/), check out these resources:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- [Official Documentation](https://create.t3.gg/)
+- [T3 Stack Tutorials](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available)
+- [create-t3-app GitHub Repository](https://github.com/t3-oss/create-t3-app)
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+If you need help, join the [T3 Discord Community](https://t3.gg/discord) and ask questions!
 
-## How do I deploy this?
+## Deployment
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Follow the deployment guides for your preferred platform:
+
+- [Vercel](https://create.t3.gg/en/deployment/vercel)
+- [Netlify](https://create.t3.gg/en/deployment/netlify)
+- [Docker](https://create.t3.gg/en/deployment/docker)
+
+## Contributing
+
+Feel free to submit issues and enhancement requests!
