@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Extra() {
   return (
@@ -70,10 +70,15 @@ export default function Extra() {
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
               <p className="mb-8 text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
               <p className="text-lg text-gray-600">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
               </p>
             </div>
 
@@ -84,10 +89,15 @@ export default function Extra() {
                   Lorem Ipsum Dolor
                 </h2>
                 <p className="mb-4 text-gray-600">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
                 </p>
                 <p className="text-gray-600">
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                  odit aut fugit, sed quia consequuntur magni dolores eos qui
+                  ratione voluptatem sequi nesciunt.
                 </p>
               </section>
 
@@ -102,7 +112,10 @@ export default function Extra() {
                       Adipiscing Elit
                     </h3>
                     <p className="text-gray-600">
-                      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+                      At vero eos et accusamus et iusto odio dignissimos ducimus
+                      qui blanditiis praesentium voluptatum deleniti atque
+                      corrupti quos dolores et quas molestias excepturi sint
+                      occaecati cupiditate non provident.
                     </p>
                   </div>
                   <div className="rounded-lg bg-gray-50 p-6">
@@ -110,7 +123,9 @@ export default function Extra() {
                       Sed Do Eiusmod
                     </h3>
                     <p className="text-gray-600">
-                      Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Tempor incididunt ut labore et dolore magna aliqua. Ut
+                      enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                   </div>
                 </div>
@@ -129,7 +144,9 @@ export default function Extra() {
                         Lorem Resource Link
                       </h3>
                       <p className="text-gray-600">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+                        Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident.
                       </p>
                     </div>
                   </div>
@@ -140,7 +157,9 @@ export default function Extra() {
                         Ipsum Documentation
                       </h3>
                       <p className="text-gray-600">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                        Sed ut perspiciatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam rem
+                        aperiam, eaque ipsa quae ab illo inventore.
                       </p>
                     </div>
                   </div>
@@ -151,7 +170,9 @@ export default function Extra() {
                         Dolor Community Forum
                       </h3>
                       <p className="text-gray-600">
-                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+                        aut odit aut fugit, sed quia consequuntur magni dolores
+                        eos qui ratione voluptatem sequi nesciunt.
                       </p>
                     </div>
                   </div>
@@ -165,15 +186,21 @@ export default function Extra() {
                 </h2>
                 <div className="grid gap-6 md:grid-cols-3">
                   <div className="text-center">
-                    <div className="mb-2 text-4xl font-bold text-gray-900">123</div>
+                    <div className="mb-2 text-4xl font-bold text-gray-900">
+                      123
+                    </div>
                     <div className="text-gray-600">Lorem Projects</div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-4xl font-bold text-gray-900">456</div>
+                    <div className="mb-2 text-4xl font-bold text-gray-900">
+                      456
+                    </div>
                     <div className="text-gray-600">Ipsum Features</div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-4xl font-bold text-gray-900">789</div>
+                    <div className="mb-2 text-4xl font-bold text-gray-900">
+                      789
+                    </div>
                     <div className="text-gray-600">Dolor Users</div>
                   </div>
                 </div>
@@ -182,11 +209,10 @@ export default function Extra() {
 
             <div className="mt-16 text-center">
               <div className="rounded-lg bg-gray-900 p-8 text-white">
-                <h2 className="mb-4 text-2xl font-bold">
-                  Stay Connected
-                </h2>
+                <h2 className="mb-4 text-2xl font-bold">Stay Connected</h2>
                 <p className="mb-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Join our newsletter for the latest updates.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Join
+                  our newsletter for the latest updates.
                 </p>
                 <div className="mx-auto max-w-md">
                   <div className="flex gap-2">

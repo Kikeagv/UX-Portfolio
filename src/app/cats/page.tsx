@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Cats() {
   return (
@@ -70,10 +70,15 @@ export default function Cats() {
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
               <p className="mb-8 text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
               <p className="text-lg text-gray-600">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
               </p>
             </div>
 
@@ -86,7 +91,8 @@ export default function Cats() {
                     Lorem Cat
                   </h3>
                   <p className="mb-4 text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed
+                    do eiusmod tempor.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
@@ -107,14 +113,15 @@ export default function Cats() {
                     Ipsum Kitty
                   </h3>
                   <p className="mb-4 text-gray-600">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
                       Playful
                     </span>
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
-                        Curious
+                      Curious
                     </span>
                   </div>
                 </div>
@@ -128,7 +135,8 @@ export default function Cats() {
                     Dolor Meow
                   </h3>
                   <p className="mb-4 text-gray-600">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
@@ -149,7 +157,8 @@ export default function Cats() {
                     Sit Purr
                   </h3>
                   <p className="mb-4 text-gray-600">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+                    Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
@@ -170,7 +179,8 @@ export default function Cats() {
                     Amet Whiskers
                   </h3>
                   <p className="mb-4 text-gray-600">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
@@ -191,7 +201,8 @@ export default function Cats() {
                     Consect Fur
                   </h3>
                   <p className="mb-4 text-gray-600">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
                     <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
@@ -215,7 +226,9 @@ export default function Cats() {
                     Lorem Cat Behavior
                   </h3>
                   <p className="text-gray-600">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
                   </p>
                 </div>
                 <div className="rounded-lg bg-gray-50 p-6">
@@ -223,7 +236,9 @@ export default function Cats() {
                     Ipsum Cat Care
                   </h3>
                   <p className="text-gray-600">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa.
                   </p>
                 </div>
                 <div className="rounded-lg bg-gray-50 p-6">
@@ -231,7 +246,9 @@ export default function Cats() {
                     Dolor Cat Health
                   </h3>
                   <p className="text-gray-600">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore.
                   </p>
                 </div>
                 <div className="rounded-lg bg-gray-50 p-6">
@@ -239,7 +256,9 @@ export default function Cats() {
                     Sit Cat Breeds
                   </h3>
                   <p className="text-gray-600">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas molestias.
                   </p>
                 </div>
               </div>

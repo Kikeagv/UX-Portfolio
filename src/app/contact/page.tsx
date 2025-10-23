@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -58,7 +58,9 @@ export default function Contact() {
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
               <p className="mb-8 text-lg text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
               <div className="mb-8 flex justify-center gap-6">
                 <a

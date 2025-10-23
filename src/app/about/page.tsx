@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -65,16 +65,20 @@ export default function About() {
                   Passionate about creating exceptional user experiences
                 </h2>
                 <p className="mb-4 text-gray-600">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <p className="mb-6 text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <h4 className="mb-2 font-semibold text-gray-900">
-                      Skills
-                    </h4>
+                    <h4 className="mb-2 font-semibold text-gray-900">Skills</h4>
                     <ul className="space-y-1 text-gray-600">
                       <li>• Lorem Research</li>
                       <li>• Ipsum Design</li>
@@ -83,9 +87,7 @@ export default function About() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="mb-2 font-semibold text-gray-900">
-                      Tools
-                    </h4>
+                    <h4 className="mb-2 font-semibold text-gray-900">Tools</h4>
                     <ul className="space-y-1 text-gray-600">
                       <li>• Lorem ipsum</li>
                       <li>• dolor sit</li>
@@ -106,27 +108,35 @@ export default function About() {
                   <h3 className="mb-2 text-xl font-semibold text-gray-900">
                     Lorem ipsum dolor
                   </h3>
-                  <p className="text-sm text-gray-500 mb-2">2020 - Present</p>
+                  <p className="mb-2 text-sm text-gray-500">2020 - Present</p>
                   <p className="text-gray-600">
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem
+                    aperiam, eaque ipsa quae ab illo inventore veritatis.
                   </p>
                 </div>
                 <div className="border-l-2 border-gray-200 pl-8">
                   <h3 className="mb-2 text-xl font-semibold text-gray-900">
                     Consectetur adipiscing
                   </h3>
-                  <p className="text-sm text-gray-500 mb-2">2018 - 2020</p>
+                  <p className="mb-2 text-sm text-gray-500">2018 - 2020</p>
                   <p className="text-gray-600">
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate.
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis praesentium voluptatum deleniti atque
+                    corrupti quos dolores et quas molestias excepturi sint
+                    occaecati cupiditate.
                   </p>
                 </div>
                 <div className="border-l-2 border-gray-200 pl-8">
                   <h3 className="mb-2 text-xl font-semibold text-gray-900">
                     Sed do eiusmod
                   </h3>
-                  <p className="text-sm text-gray-500 mb-2">2016 - 2018</p>
+                  <p className="mb-2 text-sm text-gray-500">2016 - 2018</p>
                   <p className="text-gray-600">
-                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat facere
+                    possimus, omnis voluptas assumenda est, omnis dolor
+                    repellendus.
                   </p>
                 </div>
               </div>
