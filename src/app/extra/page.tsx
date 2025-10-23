@@ -1,80 +1,20 @@
-import Link from "next/link";
-
 export default function Extra() {
   return (
-    <div className="min-h-screen bg-white">
-      {/* Navigation Header */}
-      <header className="fixed top-0 z-50 w-full border-b border-gray-200 bg-white/95 backdrop-blur-sm">
-        <nav className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="text-xl font-bold text-gray-900">
-              Your Name
-            </Link>
-            <div className="hidden space-x-8 md:flex">
-              <Link
-                href="/about"
-                className="text-gray-600 transition-colors hover:text-gray-900"
-              >
-                About
-              </Link>
-              <Link
-                href="/projects"
-                className="text-gray-600 transition-colors hover:text-gray-900"
-              >
-                Projects
-              </Link>
-              <Link
-                href="/contact"
-                className="text-gray-600 transition-colors hover:text-gray-900"
-              >
-                Contact
-              </Link>
-              <Link
-                href="/cats"
-                className="text-gray-600 transition-colors hover:text-gray-900"
-              >
-                Cats
-              </Link>
-              <Link
-                href="/extra"
-                className="text-gray-600 transition-colors hover:text-gray-900"
-              >
-                Extra
-              </Link>
-            </div>
-            <button className="text-gray-600 hover:text-gray-900 md:hidden">
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </button>
-          </div>
-        </nav>
-      </header>
-
+    <div className="min-h-screen">
       <main className="pt-20">
         <div className="container mx-auto px-4 py-16">
-          <h1 className="mb-12 text-center text-4xl font-bold text-gray-900 md:text-5xl">
+          <h1 className="mb-12 text-center text-4xl font-bold md:text-5xl">
             Extra
           </h1>
 
           <div className="mx-auto max-w-4xl">
             <div className="mb-12 text-center">
-              <p className="mb-8 text-lg text-gray-600">
+              <p className="text-muted-foreground mb-8 text-lg">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris.
               </p>
-              <p className="text-lg text-gray-600">
+              <p className="text-muted-foreground text-lg">
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                 cupidatat non proident, sunt in culpa qui officia deserunt
@@ -85,16 +25,14 @@ export default function Extra() {
             <div className="space-y-12">
               {/* Section 1 */}
               <section>
-                <h2 className="mb-6 text-3xl font-bold text-gray-900">
-                  Lorem Ipsum Dolor
-                </h2>
-                <p className="mb-4 text-gray-600">
+                <h2 className="mb-6 text-3xl font-bold">Lorem Ipsum Dolor</h2>
+                <p className="text-muted-foreground mb-4">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                   accusantium doloremque laudantium, totam rem aperiam, eaque
                   ipsa quae ab illo inventore veritatis et quasi architecto
                   beatae vitae dicta sunt explicabo.
                 </p>
-                <p className="text-gray-600">
+                <p className="text-muted-foreground">
                   Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
                   odit aut fugit, sed quia consequuntur magni dolores eos qui
                   ratione voluptatem sequi nesciunt.
@@ -103,26 +41,26 @@ export default function Extra() {
 
               {/* Section 2 */}
               <section>
-                <h2 className="mb-6 text-3xl font-bold text-gray-900">
+                <h2 className="mb-6 text-3xl font-bold">
                   Sit Amet Consectetur
                 </h2>
                 <div className="grid gap-6 md:grid-cols-2">
-                  <div className="rounded-lg bg-gray-50 p-6">
-                    <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                  <div className="bg-card rounded-lg p-6">
+                    <h3 className="mb-3 text-xl font-semibold">
                       Adipiscing Elit
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-muted-foreground">
                       At vero eos et accusamus et iusto odio dignissimos ducimus
                       qui blanditiis praesentium voluptatum deleniti atque
                       corrupti quos dolores et quas molestias excepturi sint
                       occaecati cupiditate non provident.
                     </p>
                   </div>
-                  <div className="rounded-lg bg-gray-50 p-6">
-                    <h3 className="mb-3 text-xl font-semibold text-gray-900">
+                  <div className="bg-card rounded-lg p-6">
+                    <h3 className="mb-3 text-xl font-semibold">
                       Sed Do Eiusmod
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="text-muted-foreground">
                       Tempor incididunt ut labore et dolore magna aliqua. Ut
                       enim ad minim veniam, quis nostrud exercitation ullamco
                       laboris nisi ut aliquip ex ea commodo consequat.
@@ -133,17 +71,17 @@ export default function Extra() {
 
               {/* Section 3 */}
               <section>
-                <h2 className="mb-6 text-3xl font-bold text-gray-900">
+                <h2 className="mb-6 text-3xl font-bold">
                   Additional Resources
                 </h2>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-4">
-                    <div className="mt-1 h-2 w-2 rounded-full bg-gray-900"></div>
+                    <div className="bg-primary mt-1 h-2 w-2 rounded-full"></div>
                     <div>
-                      <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                      <h3 className="mb-2 text-xl font-semibold">
                         Lorem Resource Link
                       </h3>
-                      <p className="text-gray-600">
+                      <p className="text-muted-foreground">
                         Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur.
                         Excepteur sint occaecat cupidatat non proident.
@@ -151,12 +89,12 @@ export default function Extra() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
-                    <div className="mt-1 h-2 w-2 rounded-full bg-gray-900"></div>
+                    <div className="bg-primary mt-1 h-2 w-2 rounded-full"></div>
                     <div>
-                      <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                      <h3 className="mb-2 text-xl font-semibold">
                         Ipsum Documentation
                       </h3>
-                      <p className="text-gray-600">
+                      <p className="text-muted-foreground">
                         Sed ut perspiciatis unde omnis iste natus error sit
                         voluptatem accusantium doloremque laudantium, totam rem
                         aperiam, eaque ipsa quae ab illo inventore.
@@ -164,12 +102,12 @@ export default function Extra() {
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
-                    <div className="mt-1 h-2 w-2 rounded-full bg-gray-900"></div>
+                    <div className="bg-primary mt-1 h-2 w-2 rounded-full"></div>
                     <div>
-                      <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                      <h3 className="mb-2 text-xl font-semibold">
                         Dolor Community Forum
                       </h3>
-                      <p className="text-gray-600">
+                      <p className="text-muted-foreground">
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur
                         aut odit aut fugit, sed quia consequuntur magni dolores
                         eos qui ratione voluptatem sequi nesciunt.
@@ -181,34 +119,26 @@ export default function Extra() {
 
               {/* Section 4 */}
               <section>
-                <h2 className="mb-6 text-3xl font-bold text-gray-900">
-                  Quick Stats
-                </h2>
+                <h2 className="mb-6 text-3xl font-bold">Quick Stats</h2>
                 <div className="grid gap-6 md:grid-cols-3">
                   <div className="text-center">
-                    <div className="mb-2 text-4xl font-bold text-gray-900">
-                      123
-                    </div>
-                    <div className="text-gray-600">Lorem Projects</div>
+                    <div className="mb-2 text-4xl font-bold">123</div>
+                    <div className="text-muted-foreground">Lorem Projects</div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-4xl font-bold text-gray-900">
-                      456
-                    </div>
-                    <div className="text-gray-600">Ipsum Features</div>
+                    <div className="mb-2 text-4xl font-bold">456</div>
+                    <div className="text-muted-foreground">Ipsum Features</div>
                   </div>
                   <div className="text-center">
-                    <div className="mb-2 text-4xl font-bold text-gray-900">
-                      789
-                    </div>
-                    <div className="text-gray-600">Dolor Users</div>
+                    <div className="mb-2 text-4xl font-bold">789</div>
+                    <div className="text-muted-foreground">Dolor Users</div>
                   </div>
                 </div>
               </section>
             </div>
 
             <div className="mt-16 text-center">
-              <div className="rounded-lg bg-gray-900 p-8 text-white">
+              <div className="bg-primary text-primary-foreground rounded-lg p-8">
                 <h2 className="mb-4 text-2xl font-bold">Stay Connected</h2>
                 <p className="mb-6">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Join
@@ -219,9 +149,9 @@ export default function Extra() {
                     <input
                       type="email"
                       placeholder="your.email@example.com"
-                      className="flex-1 rounded-lg px-4 py-2 text-gray-900"
+                      className="border-input bg-background text-foreground flex-1 rounded-lg border px-4 py-2"
                     />
-                    <button className="rounded-lg bg-white px-6 py-2 font-semibold text-gray-900 transition-colors hover:bg-gray-100">
+                    <button className="bg-foreground text-background hover:bg-foreground/90 rounded-lg px-6 py-2 font-semibold transition-colors">
                       Subscribe
                     </button>
                   </div>

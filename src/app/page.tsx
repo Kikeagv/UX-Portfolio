@@ -20,31 +20,29 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="flex min-h-screen items-center justify-center">
         <div className="container mx-auto px-4 py-16">
           <div className="flex flex-col items-center justify-center text-center">
-            <h1 className="mb-4 text-4xl font-bold text-gray-900 md:text-6xl">
-              Your Name
-            </h1>
-            <p className="mb-8 text-xl text-gray-600 md:text-2xl">
+            <h1 className="mb-4 text-4xl font-bold md:text-6xl">Your Name</h1>
+            <p className="text-muted-foreground mb-8 text-xl md:text-2xl">
               UX/UI Designer
             </p>
-            <p className="mb-12 max-w-2xl text-lg text-gray-500">
+            <p className="text-muted-foreground mb-12 max-w-2xl text-lg">
               Creating intuitive and beautiful digital experiences that users
               love.
             </p>
             <div className="flex gap-4">
               <a
                 href="#projects"
-                className="rounded-lg bg-gray-900 px-8 py-3 text-white transition-colors hover:bg-gray-800"
+                className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg px-8 py-3 transition-colors"
               >
                 View Projects
               </a>
               <a
                 href="#contact"
-                className="rounded-lg border border-gray-900 px-8 py-3 text-gray-900 transition-colors hover:bg-gray-50"
+                className="border-border text-foreground hover:bg-accent rounded-lg border px-8 py-3 transition-colors"
               >
                 Get In Touch
               </a>
@@ -54,39 +52,36 @@ export default function Home() {
       </section>
 
       {/* About Me Section */}
-      <section
-        id="about"
-        className="flex min-h-screen items-center bg-gray-50 py-20"
-      >
+      <section id="about" className="flex min-h-screen items-center py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-8 text-center text-3xl font-bold text-gray-900 md:text-4xl">
+            <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">
               About Me
             </h2>
             <div className="grid items-center gap-12 md:grid-cols-2">
               <div>
-                <div className="mx-auto mb-6 h-64 w-64 rounded-full bg-gray-300"></div>
+                <div className="bg-muted mx-auto mb-6 h-64 w-64 rounded-full"></div>
               </div>
               <div>
-                <h3 className="mb-4 text-2xl font-semibold text-gray-900">
+                <h3 className="mb-4 text-2xl font-semibold">
                   Passionate about creating exceptional user experiences
                 </h3>
-                <p className="mb-4 text-gray-600">
+                <p className="text-muted-foreground mb-4">
                   I&apos;m a UX/UI designer with a keen eye for detail and a
                   passion for solving complex problems through design. With
                   experience in user research, wireframing, prototyping, and
                   visual design, I create digital products that are both
                   beautiful and functional.
                 </p>
-                <p className="mb-6 text-gray-600">
+                <p className="text-muted-foreground mb-6">
                   My approach combines user-centered design principles with
                   modern aesthetics to deliver experiences that delight users
                   and drive business results.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <h4 className="mb-2 font-semibold text-gray-900">Skills</h4>
-                    <ul className="space-y-1 text-gray-600">
+                    <h4 className="mb-2 font-semibold">Skills</h4>
+                    <ul className="text-muted-foreground space-y-1">
                       <li>• User Research</li>
                       <li>• Wireframing</li>
                       <li>• Prototyping</li>
@@ -94,8 +89,8 @@ export default function Home() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="mb-2 font-semibold text-gray-900">Tools</h4>
-                    <ul className="space-y-1 text-gray-600">
+                    <h4 className="mb-2 font-semibold">Tools</h4>
+                    <ul className="text-muted-foreground space-y-1">
                       <li>• Figma</li>
                       <li>• Adobe Creative Suite</li>
                       <li>• Sketch</li>
@@ -113,80 +108,80 @@ export default function Home() {
       <section id="projects" className="flex min-h-screen items-center py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-6xl">
-            <h2 className="mb-8 text-center text-3xl font-bold text-gray-900 md:text-4xl">
+            <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">
               Projects
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               {/* Project 1 */}
-              <div className="overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
-                <div className="h-48 bg-gray-300"></div>
+              <div className="border-border bg-card overflow-hidden rounded-lg border transition-shadow hover:shadow-lg">
+                <div className="bg-muted h-48"></div>
                 <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                  <h3 className="mb-2 text-xl font-semibold">
                     Mobile Banking App
                   </h3>
-                  <p className="mb-4 text-gray-600">
+                  <p className="text-muted-foreground mb-4">
                     Redesigned the user experience for a mobile banking
                     application, focusing on simplicity and accessibility.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
+                    <span className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm">
                       UX Research
                     </span>
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
+                    <span className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm">
                       Mobile Design
                     </span>
                   </div>
-                  <button className="font-medium text-gray-900 transition-colors hover:text-gray-700">
+                  <button className="hover:text-primary font-medium transition-colors">
                     View Case Study →
                   </button>
                 </div>
               </div>
 
               {/* Project 2 */}
-              <div className="overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
-                <div className="h-48 bg-gray-300"></div>
+              <div className="border-border bg-card overflow-hidden rounded-lg border transition-shadow hover:shadow-lg">
+                <div className="bg-muted h-48"></div>
                 <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                  <h3 className="mb-2 text-xl font-semibold">
                     E-commerce Platform
                   </h3>
-                  <p className="mb-4 text-gray-600">
+                  <p className="text-muted-foreground mb-4">
                     Complete UI overhaul for an e-commerce platform, improving
                     conversion rates by 35%.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
+                    <span className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm">
                       Web Design
                     </span>
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
+                    <span className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm">
                       Prototyping
                     </span>
                   </div>
-                  <button className="font-medium text-gray-900 transition-colors hover:text-gray-700">
+                  <button className="hover:text-primary font-medium transition-colors">
                     View Case Study →
                   </button>
                 </div>
               </div>
 
               {/* Project 3 */}
-              <div className="overflow-hidden rounded-lg border border-gray-200 bg-white transition-shadow hover:shadow-lg">
-                <div className="h-48 bg-gray-300"></div>
+              <div className="border-border bg-card overflow-hidden rounded-lg border transition-shadow hover:shadow-lg">
+                <div className="bg-muted h-48"></div>
                 <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-gray-900">
+                  <h3 className="mb-2 text-xl font-semibold">
                     Healthcare Dashboard
                   </h3>
-                  <p className="mb-4 text-gray-600">
+                  <p className="text-muted-foreground mb-4">
                     Designed an intuitive dashboard for healthcare professionals
                     to manage patient data efficiently.
                   </p>
                   <div className="mb-4 flex flex-wrap gap-2">
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
+                    <span className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm">
                       Dashboard Design
                     </span>
-                    <span className="rounded-full bg-gray-100 px-3 py-1 text-sm text-gray-700">
+                    <span className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm">
                       Data Visualization
                     </span>
                   </div>
-                  <button className="font-medium text-gray-900 transition-colors hover:text-gray-700">
+                  <button className="hover:text-primary font-medium transition-colors">
                     View Case Study →
                   </button>
                 </div>
@@ -197,17 +192,14 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section
-        id="contact"
-        className="flex min-h-screen items-center bg-gray-50 py-20"
-      >
+      <section id="contact" className="flex min-h-screen items-center py-20">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-8 text-center text-3xl font-bold text-gray-900 md:text-4xl">
+            <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">
               Get In Touch
             </h2>
             <div className="mb-12 text-center">
-              <p className="mb-8 text-lg text-gray-600">
+              <p className="text-muted-foreground mb-8 text-lg">
                 I&apos;m always interested in hearing about new projects and
                 opportunities. Whether you have a question or just want to say
                 hi, feel free to reach out!
@@ -215,34 +207,34 @@ export default function Home() {
               <div className="mb-8 flex justify-center gap-6">
                 <a
                   href="mailto:your.email@example.com"
-                  className="text-gray-600 transition-colors hover:text-gray-900"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   your.email@example.com
                 </a>
-                <span className="text-gray-400">•</span>
+                <span className="text-muted-foreground">•</span>
                 <a
                   href="https://linkedin.com/in/yourprofile"
-                  className="text-gray-600 transition-colors hover:text-gray-900"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   LinkedIn
                 </a>
-                <span className="text-gray-400">•</span>
+                <span className="text-muted-foreground">•</span>
                 <a
                   href="https://dribbble.com/yourprofile"
-                  className="text-gray-600 transition-colors hover:text-gray-900"
+                  className="text-muted-foreground hover:text-foreground transition-colors"
                 >
                   Dribbble
                 </a>
               </div>
             </div>
 
-            <div className="rounded-lg bg-white p-8 shadow-sm">
+            <div className="bg-card rounded-lg p-8 shadow-sm">
               <form className="space-y-6">
                 <div className="grid gap-6 md:grid-cols-2">
                   <div>
                     <label
                       htmlFor="name"
-                      className="mb-2 block text-sm font-medium text-gray-700"
+                      className="mb-2 block text-sm font-medium"
                     >
                       Name
                     </label>
@@ -250,14 +242,14 @@ export default function Home() {
                       type="text"
                       id="name"
                       name="name"
-                      className="w-full rounded-lg border border-gray-300 px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2 focus:ring-gray-900"
+                      className="border-input bg-background focus:ring-ring w-full rounded-lg border px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2"
                       placeholder="Your Name"
                     />
                   </div>
                   <div>
                     <label
                       htmlFor="email"
-                      className="mb-2 block text-sm font-medium text-gray-700"
+                      className="mb-2 block text-sm font-medium"
                     >
                       Email
                     </label>
@@ -265,7 +257,7 @@ export default function Home() {
                       type="email"
                       id="email"
                       name="email"
-                      className="w-full rounded-lg border border-gray-300 px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2 focus:ring-gray-900"
+                      className="border-input bg-background focus:ring-ring w-full rounded-lg border px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -273,7 +265,7 @@ export default function Home() {
                 <div>
                   <label
                     htmlFor="subject"
-                    className="mb-2 block text-sm font-medium text-gray-700"
+                    className="mb-2 block text-sm font-medium"
                   >
                     Subject
                   </label>
@@ -281,14 +273,14 @@ export default function Home() {
                     type="text"
                     id="subject"
                     name="subject"
-                    className="w-full rounded-lg border border-gray-300 px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2 focus:ring-gray-900"
+                    className="border-input bg-background focus:ring-ring w-full rounded-lg border px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2"
                     placeholder="Project Inquiry"
                   />
                 </div>
                 <div>
                   <label
                     htmlFor="message"
-                    className="mb-2 block text-sm font-medium text-gray-700"
+                    className="mb-2 block text-sm font-medium"
                   >
                     Message
                   </label>
@@ -296,14 +288,14 @@ export default function Home() {
                     id="message"
                     name="message"
                     rows={5}
-                    className="w-full resize-none rounded-lg border border-gray-300 px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2 focus:ring-gray-900"
+                    className="border-input bg-background focus:ring-ring w-full resize-none rounded-lg border px-4 py-2 transition-all outline-none focus:border-transparent focus:ring-2"
                     placeholder="Tell me about your project..."
                   ></textarea>
                 </div>
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="rounded-lg bg-gray-900 px-8 py-3 text-white transition-colors hover:bg-gray-800"
+                    className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg px-8 py-3 transition-colors"
                   >
                     Send Message
                   </button>
