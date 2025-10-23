@@ -10,7 +10,7 @@ This project provides a solid foundation for building a professional UX portfoli
 
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (version 18 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Bun](https://bun.sh/) (modern JavaScript runtime and package manager)
 
 ### Installation
 
@@ -20,13 +20,13 @@ git clone <your-repo-url>
 cd UX-Portfolio
 
 # Install dependencies
-npm install
+bun install
 
 # Copy environment variables
 cp .env.example .env.local
 
 # Start the development server
-npm run dev
+bun run dev
 ```
 
 ## Tech Stack
@@ -54,12 +54,12 @@ src/
 ### Available Scripts
 
 ```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run start        # Start production server
-npm run lint         # Run ESLint
-npm run typecheck    # Run TypeScript type checking
-npm run format:write # Format code with Prettier
+bun run dev          # Start development server
+bun run build        # Build for production
+bun run start        # Start production server
+bun run lint         # Run ESLint
+bun run typecheck    # Run TypeScript type checking
+bun run format:write # Format code with Prettier
 ```
 
 ### Environment Variables
