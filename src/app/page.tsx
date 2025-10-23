@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-white">
@@ -25,6 +27,18 @@ export default function Home() {
               >
                 Contact
               </a>
+              <Link
+                href="/cats"
+                className="text-gray-600 transition-colors hover:text-gray-900"
+              >
+                Cats
+              </Link>
+              <Link
+                href="/extra"
+                className="text-gray-600 transition-colors hover:text-gray-900"
+              >
+                Extra
+              </Link>
             </div>
             <button className="text-gray-600 hover:text-gray-900 md:hidden">
               <svg
