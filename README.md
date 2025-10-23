@@ -9,6 +9,7 @@ This project provides a solid foundation for building a professional UX portfoli
 ### Prerequisites
 
 Make sure you have the following installed:
+
 - [Node.js](https://nodejs.org/) (version 18 or higher)
 - [Bun](https://bun.sh/) (modern JavaScript runtime and package manager)
 
